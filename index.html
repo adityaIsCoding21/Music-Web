@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous">
+</head>
+<body>
+
+<!-- 🔹 Navigation Bar -->
+<div class="nav">
+    <div class="n1">
+        <i class="fa-solid fa-bars" style="color: #f5f7f9;"></i>
+        <i class="fa-brands fa-spotify nav-logo"></i>
+        <h1>My Music Player</h1>
+        <i class="fa-solid fa-house nav-logo"></i>
+
+       
+
+        <!-- <div class="form">
+            <div class="f1">
+                <i class="fa-solid fa-magnifying-glass nav-logo"></i>
+            </div>
+            <form>
+                <input type="text">
+            </form>
+            <div class="f2">
+                <i class="fa-solid fa-window-maximize nav-logo"></i>
+            </div>
+        </div> -->
+    </div>
+
+    <!-- <div class="n2">
+        <div class="list">
+            <ul>
+                <li><a href="#">Premium</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Download</a></li>
+            </ul>
+        </div> -->
+
+        <!-- <div class="down">
+            <i class="fa-solid fa-circle-down"></i>
+            <p>Install App</p>
+        </div>
+
+        <p>Sign Up</p>
+        <div class="btn">Login In</div>
+    </div> -->
+</div>
+
+<!-- 🔹 Main Container -->
+<div class="main">
+    <div class="left">
+        <div class="lib">
+            <div class="lib1">
+                <div class="first">
+                    <i class="fa-solid fa-book"></i>
+                    <p>Your Library</p>
+                </div>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+
+            <!-- <select id="folderSelector"></select>  🎵 Dropdown to choose folder -->
+
+            <div class="lib2">
+                <ul></ul>
+            </div>
+
+            <div class="lib3">
+                <h5>Let's find some podcasts to follow</h5>
+                <p>We'll keep you updated on new episodes</p>
+                <div class="btn2">Browse Podcasts</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="right">
+        <div class="main-right">
+          <div class="r1-card">
+            <div class="c1" data-folder="hindi">
+                <img src="https://britasia.tv/wp-content/uploads/2019/02/bollywood-collage-220151208193011.jpg" alt="">
+                <p>Hindi Songs</p>
+                <p>Bollywood Hits</p>
+                <div class="play">
+                    <i class="fa-solid fa-circle-play"></i>
+                </div>
+            </div>
+        
+            <div class="c1" data-folder="english">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.0rENOEZZJ2pi7mmnPsIzkgHaEK&pid=Api&P=0&h=180" alt="">
+                <p>English Hits</p>
+                <p>Ed Sheeran, Imagine Dragons</p>
+                <div class="play">
+                    <i class="fa-solid fa-circle-play"></i>
+                </div>
+            </div>
+        
+            <div class="c1" data-folder="sad">
+                <img src="https://i.ytimg.com/vi/ZbAqddeU2SA/maxresdefault.jpg" alt="">
+                <p>Sad Songs</p>
+                <p>Heart Touching</p>
+                <div class="play">
+                    <i class="fa-solid fa-circle-play"></i>
+                </div>
+            </div>
+            <div class="c1" data-folder="punjabi">
+              <img src="https://tse3.mm.bing.net/th?id=OIP.HRAbFX5V_zfH1ZopJdjsHQHaEK&pid=Api&P=0&h=180" alt="">
+              <p>Punjabi Songs</p>
+              <p>Latest Punjabi Hits</p>
+              <div class="play">
+                  <i class="fa-solid fa-circle-play"></i>
+              </div>
+          </div>
+
+          <div class="c1" data-folder="english">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.ak51hx0Cx-2t_S9cKzPfRQHaEK&pid=Api&P=0&h=180" alt="">
+            <p>English Hits</p>
+            <p>Ed Sheeran, Imagine Dragons</p>
+            <div class="play">
+                <i class="fa-solid fa-circle-play"></i>
+            </div>
+        </div>
+
+        <div class="c1" data-folder="english">
+          <img src="https://tse3.mm.bing.net/th?id=OIP.wki1V6RNNveXXZ8DAFvDpAHaEK&pid=Api&P=0&h=180" alt="">
+          <p>English Hits</p>
+          <p>Ed Sheeran, Imagine Dragons</p>
+          <div class="play">
+              <i class="fa-solid fa-circle-play"></i>
+          </div>
+      </div>
+
+
+      <div class="c1" data-folder="english">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.4w7b3kCAxqstS_KR0VkXTgHaHa&pid=Api&P=0&h=180" alt="">
+        <p>English Hits</p>
+        <p>Ed Sheeran, Imagine Dragons</p>
+        <div class="play">
+            <i class="fa-solid fa-circle-play"></i>
+        </div>
+    </div>
+
+
+    <div class="c1" data-folder="english">
+      <img src="https://tse4.mm.bing.net/th?id=OIP.nzEBQ7AZe0nx5OdCUDvdUwHaEv&pid=Api&P=0&h=180" alt="">
+      <p>English Hits</p>
+      <p>Ed Sheeran, Imagine Dragons</p>
+      <div class="play">
+          <i class="fa-solid fa-circle-play"></i>
+      </div>
+  </div>
+
+
+  <div class="c1" data-folder="english">
+    <img src="https://tse1.mm.bing.net/th?id=OIP.WibT2nypwIiA9Usw38q9WAHaHa&pid=Api&P=0&h=180" alt="">
+    <p>English Hits</p>
+    <p>Ed Sheeran, Imagine Dragons</p>
+    <div class="play">
+        <i class="fa-solid fa-circle-play"></i>
+    </div>
+</div>
+
+
+<div class="c1" data-folder="english">
+  <img src="https://tse3.mm.bing.net/th?id=OIP.36qwdkn87HjyJold2tzNagHaEK&pid=Api&P=0&h=180" alt="">
+  <p>English Hits</p>
+  <p>Ed Sheeran, Imagine Dragons</p>
+  <div class="play">
+      <i class="fa-solid fa-circle-play"></i>
+  </div>
+</div>
+          
+        </div>
+        
+        </div>
+    </div>
+</div>
+
+<!-- 🔹 Play Bar -->
+<div class="play-bar">
+    <div class="song-info">
+        <span id="songTitle">Song Name</span>
+    </div>
+
+    <div class="controls">
+        <i class="fa-solid fa-backward" id="prevSong"></i>
+        <i class="fa-solid fa-play" id="playPause"></i>
+        <i class="fa-solid fa-forward" id="nextSong"></i>
+    </div>
+
+    <div class="progress-container">
+        <span id="currentTime">0:00</span>
+        <div id="progressBarContainer">
+            <div id="progressBar"></div>
+        </div>
+        <span id="duration">0:00</span>
+    </div>
+
+    <div class="volume-container">
+        <i class="fa-solid fa-volume-up" id="volumeIcon"></i>
+        <input type="range" id="volumeSlider" min="0" max="1" step="0.1" value="1">
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

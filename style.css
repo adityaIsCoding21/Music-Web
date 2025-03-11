@@ -1,0 +1,837 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+.main{
+    display: flex;
+    
+}
+
+.nav{
+    width: 100%;
+    height: 25px;
+    /* background-color: aqua; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    flex-direction: row;
+    color: whitesmoke;
+    /* padding: 5px 5px 5px 5px; */
+    padding-top: 10px;
+    margin-bottom: 8px;
+    
+   
+    
+    
+}
+
+.n1 h1{
+    font-family: cursive;
+    font-size: 180%;
+
+}
+
+.n1 .fa-bars{
+    display: none;
+}
+.n1{
+    display: flex;
+    /* width: 50%; */
+    gap: 20px;
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 20px;
+    align-items: center; 
+    padding-left: 10px;   
+    padding-right: 10px;   
+    /* position: relative; */
+    
+}
+
+.n2{
+    display: flex;
+    /* width: 50%; */
+    gap: 20px;
+    margin-right: 100px;
+    align-items: center;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+
+.nav-logo{
+    font-size: 25px;
+}
+
+.form{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center ;
+    /* position: relative; */
+}
+
+form input{
+    width: 460px;
+    height: 35px;
+    background: transparent;
+    border: none;
+    outline:0;
+    background-color: rgb(76, 75, 75);
+    /* border-radius: 20px; */
+    padding: 20px;
+    color: whitesmoke;
+    font-size: 15px;
+    
+}
+
+.f1{
+    /* position: absolute; */
+    /* left: 10px; */
+    height: 35px;
+    width: 40px;
+    padding: 20px;
+    /* border: 2px solid red; */
+    /* align-items: center; */
+    background-color: rgb(76, 75, 75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+
+.f2{
+      /* position: absolute; */
+    /* left: 10px; */
+    height: 35px;
+    width: 40px;
+    padding: 20px;
+    /* border: 2px solid red; */
+    /* align-items: center; */
+    background-color: rgb(76, 75, 75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+   
+}
+
+
+/* .list ul{
+    display: flex;
+    gap: 10px;
+
+
+}
+
+.list ul  a{
+    text-decoration: none;
+    color: whitesmoke;
+
+
+}
+
+.list ul li{
+    list-style: none;
+
+
+
+} */
+
+
+
+.down{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 55px;
+}
+
+.fa-circle-down{
+    font-size: 18px;
+}
+
+.btn{
+    width: 100px;
+    height: 50px;
+    background-color: whitesmoke;
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 14px;
+}
+
+
+
+/* ------------------------------------- left box------------------------------------------------------- */
+
+.left{
+    width: 25%;
+    height: auto;
+    /* border: 2px solid red; */
+    padding: 15px;
+    color: whitesmoke;
+}
+.right{
+    width: 75%;
+    height: auto;
+    /* border: 2px solid red; */
+    padding: 15px;
+    /* overflow-y: scroll; */
+}
+.lib{
+
+    width: 100%;
+    height: 80vh;
+    background-color: #121212;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 18px;
+    position: relative;
+    /* align-items: center; */
+    
+
+}
+.first{
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+    align-items: center;
+    /* justify-content: space-around; */
+
+}
+
+.lib1{
+    width: 100%;
+    height: 65px;
+    /* background-color: #aa0909; */
+    /* border-radius: 20px; */
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+}
+
+.lib2{
+    width: 100%;
+    /* border: 2px solid red; */
+    /* height: 150px;
+    background-color: #1f1f1f;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 25px;
+   display: none; */
+
+}
+
+/* .lib2 p{
+    font-size: 14px;
+    margin-bottom: 13px;
+}
+
+.lib2 h5{
+    font-size: 18px;
+} */
+
+.btn2{
+    height: 45px;
+    width: 150px;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 25px;
+  
+}
+
+.lib3{
+    width: 100%;
+    height: 150px;
+    background-color: #1f1f1f;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    margin-bottom: 105px;
+    display: none;
+
+
+}
+
+.lib3 h5{
+    font-size: 18px;
+}
+
+.lib3 p{
+    font-size: 14px;
+    margin-bottom: 13px;
+
+}
+
+.footer{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    color: whitesmoke;
+    justify-content: space-evenly;
+    font-size: 12px;
+    display: grid;
+    
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
+  grid-template-rows: repeat(3, 50px)
+    
+}
+
+
+
+
+
+.footer a{
+    color: #a39f9f;
+    text-decoration: none;
+   
+   /* font-size: 12px; */
+ 
+}
+
+
+
+.main-right {
+    width: 100%;
+    height: 80vh;
+    background-color: #121212;
+    border-radius: 20px;
+    padding: 20px 25px 20px 20px; /* Extra right padding */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 18px;
+    overflow-y: auto; /* Enable scrolling */
+}
+
+/* Custom Scrollbar */
+.main-right::-webkit-scrollbar {
+    width: 10px; /* Width of scrollbar */
+}
+
+.main-right::-webkit-scrollbar-track {
+    background: #222; /* Track color */
+    border-radius: 10px;
+}
+
+.main-right::-webkit-scrollbar-thumb {
+    background: #1db954; /* Thumb color */
+    border-radius: 10px;
+    transition: background 0.3s ease-in-out;
+}
+
+.main-right::-webkit-scrollbar-thumb:hover {
+    background: #1ed760;
+}
+
+
+
+
+
+.r1-nav{
+    width: 100%;
+    margin-bottom: 35px;
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    margin-top: 65px;
+}
+.r1-nav h2{
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.r1-card{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+
+}
+
+
+.c1{
+    width: 210px;
+    height: 305px;
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+   
+    padding: 10px 10px 10px;
+    position: relative;
+    color: whitesmoke;
+    transition: all 0.15s ease-in;
+    border-radius: 20px;
+
+}
+.c1 img{
+    width:  180px;
+    height: 180px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+
+    
+}
+
+.play i{
+    /* width: 210px; */
+    position: absolute;
+    
+    top: 55%;
+    right: 0;
+
+    font-size: 50px;
+    opacity: 0;
+    transition: all 0.13s ease-in;
+
+    
+    
+
+}
+
+.c1:hover{
+
+    background-color: #1f1f1f;
+    .play i{
+        top: 50%;
+        opacity: 1;
+    }
+
+}
+
+.lib2 {
+    overflow-y: auto; /* Enable vertical scrolling */
+    height: 65vh;
+    padding: 0 10px;
+   
+    /* background-color: #1db954; */
+    
+    /* Custom scrollbar styles */
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: #1db954 #121212; /* Scrollbar color (thumb and track) */
+
+}
+
+/* For WebKit browsers (Chrome, Edge, Safari) */
+.lib2::-webkit-scrollbar {
+    width: 8px; /* Width of scrollbar */
+   
+}
+
+.lib2::-webkit-scrollbar-track {
+    background: #121212; /* Scrollbar track color */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.lib2::-webkit-scrollbar-thumb {
+    background: #1db954; /* Scrollbar thumb color */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.lib2::-webkit-scrollbar-thumb:hover {
+    background: #1ed760; /* Change color on hover */
+
+
+}
+
+
+.lib2 ul{
+    color: whitesmoke ;
+    padding: 0 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* background-color: antiquewhite; */
+}
+
+.box{
+    width: 100%;
+    height: 70px;
+
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    gap: 20px;
+}
+
+.lib2 ul li{
+    list-style-type: decimal;
+    font-size: 0.85rem;
+    /* display: flex; */
+    /* flex-direction: column; */
+  
+}
+
+
+/* 🎵 Play Bar Container */
+.play-bar {
+    width: 100%;
+    height: 70px;
+    background-color: #181818; /* Dark Spotify-like theme */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-top: 2px solid #1db954; /* Green Spotify highlight */
+}
+
+/* 🎵 Song Info (Left Side) */
+.play-bar .song-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: whitesmoke;
+}
+
+/* 🎵 Song Cover Image */
+.play-bar .song-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+/* 🎵 Controls (Center) */
+.play-bar .controls {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.play-bar .controls i {
+    font-size: 28px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.play-bar .controls i:hover {
+    color: #1db954; /* Change to Spotify green on hover */
+}
+
+/* 🎵 Time Progress (Right Side) */
+.play-bar .progress {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: whitesmoke;
+    font-size: 14px;
+}
+
+/* 🎵 Progress Bar */
+.play-bar .progress input[type="range"] {
+    width: 100%;
+    cursor: pointer;
+    background: #1db954;
+    appearance: none;
+    height: 5px;
+    border-radius: 5px;
+}
+
+/* 🎵 Progress Bar Thumb */
+.play-bar .progress input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+/* // new palybar  */
+
+
+/* 🎵 Progress Bar Container */
+.progress-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    font-size: 14px;
+    color: white;
+}
+
+/* 🎵 Seekbar Track */
+#progressBarContainer {
+    position: relative;
+    width: 100%;
+    height: 6px; /* Adjust height */
+    background: #444; /* Background of track */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* 🎵 Seekbar Filled (Progress) */
+#progressBar {
+    width: 0%; /* Updated dynamically */
+    height: 100%;
+    background: #1db954; /* Spotify Green */
+    border-radius: 5px;
+    transition: width 0.2s linear;
+}
+
+
+
+
+/* 🎵 Playbar Styles */
+.play-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #181818;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    color: white;
+    box-shadow: 0px -2px 5px rgba(255, 255, 255, 0.1);
+}
+
+/* 🎵 Song Info */
+.song-info {
+    flex: 1;
+    padding-left: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* 🎵 Player Controls */
+.controls {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.controls i {
+    cursor: pointer;
+    font-size: 22px;
+    transition: color 0.3s ease-in-out;
+}
+
+.controls i:hover {
+    color: #1db954; /* Spotify Green */
+}
+
+/* 🎵 Progress Bar */
+.progress-container {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#progressBarContainer {
+    flex: 1;
+    height: 5px;
+    background: #4d4d4d;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+#progressBar {
+    width: 0%;
+    height: 100%;
+    background: #1db954; /* Spotify Green */
+    border-radius: 5px;
+    transition: width 0.2s ease-in-out;
+}
+
+/* 🎵 Volume Control */
+.volume-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-right: 15px;
+    margin-left: 5px;
+}
+
+#volumeSlider {
+    width: 80px;
+    cursor: pointer;
+}
+
+/* ✅ Responsive for Small Screens */
+@media (max-width: 768px) {
+    .play-bar {
+        flex-direction: column;
+        height: auto;
+        padding: 5px;
+    }
+
+    .song-info, .controls, .progress-container, .volume-container {
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        padding: 5px 0;
+    }
+
+    .controls i {
+        font-size: 18px;
+    }
+
+    #volumeSlider {
+        width: 60px;
+    }
+}
+ 
+@media (max-width:1205px) { 
+    .left{
+        width: 35%;
+    }
+    .right{
+        width: 65%;
+    }
+
+    .c1{
+        width: 150px;
+        height: 190px;
+         flex: 0 1 calc(25% - 10px); 
+        
+    }
+    .c1 p{
+        font-size: 0.9rem;
+    }
+
+    .c1 img{
+        height: 50%;
+        width: 100%;
+    }
+
+    
+
+    
+}
+
+@media (max-width:850px) {
+    .left{
+        position: absolute;
+        left: -100%;
+    }
+    .right{
+        width: 100%;
+    }
+    .n1 .fa-bars{
+        display: inline;
+    }
+
+   
+    
+}
+
+@media (max-width:520px) {
+
+    .c1{
+        flex: 0 1 calc(33.33% - 10px);
+        margin-bottom: 50px;
+
+        
+    }
+    .c1 img{
+        height: 150px;
+
+    }
+    
+}
+
+/* ✅ Responsive styles for mobile devices */
+@media (max-width: 768px) {  /* Covers most tablets & mobile screens */
+    
+    .c1 {
+        flex: 0 1 calc(50% - 10px); /* 2 items per row */
+    }
+
+    .nav {
+        margin: 0px;
+    }
+
+    .n1 h1 {
+        font-size: 1rem; /* Slightly larger for readability */
+    }
+
+    .left {
+        z-index: 10; /* Ensure sidebar is above */
+        width: 100%; /* Full width on small screens */
+        position: fixed;
+        left: -100%; /* Initially hidden */
+        transition: left 0.3s ease-in-out; /* Smooth sliding */
+    }
+
+    .left.active {
+        left: 0; /* Show sidebar when active */
+    }
+
+    .right {
+        z-index: 0;
+        width: 100%; /* Full width when sidebar is hidden */
+    }
+
+    .play-bar {
+        z-index: 100;
+    }
+}
+
+/* ✅ For very small mobile screens (narrow devices) */
+@media (max-width: 480px) {  
+    .c1 {
+        flex: 0 1 calc(100% - 10px); /* 1 item per row */
+    }
+
+    .n1 h1 {
+        font-size: 0.9rem;
+    }
+}
+
+
+
+
